@@ -4,7 +4,7 @@
   <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.com/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.com/"/>
-  <updated>2013-04-06T00:10:08+08:00</updated>
+  <updated>2013-04-06T00:21:03+08:00</updated>
   <id>http://Rosaniline.github.com/</id>
   <author>
     <name><![CDATA[Rosaniline]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Post haha]]></title>
+    <link href="http://Rosaniline.github.com/blog/2013/04/06/first-post-haha/"/>
+    <updated>2013-04-06T00:20:00+08:00</updated>
+    <id>http://Rosaniline.github.com/blog/2013/04/06/first-post-haha</id>
+    <content type="html"><![CDATA[<p>This gonna be cool</p>
+]]></content>
+  </entry>
   
 </feed>
