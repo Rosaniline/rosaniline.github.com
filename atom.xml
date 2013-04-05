@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[rosaceous]]></title>
+  <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.com/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.com/"/>
-  <updated>2013-04-05T23:56:41+08:00</updated>
+  <updated>2013-04-06T00:06:57+08:00</updated>
   <id>http://Rosaniline.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Rosaniline]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
