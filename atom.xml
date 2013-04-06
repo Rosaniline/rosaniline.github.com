@@ -4,7 +4,7 @@
   <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.com/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.com/"/>
-  <updated>2013-04-06T00:21:03+08:00</updated>
+  <updated>2013-04-06T20:47:58+08:00</updated>
   <id>http://Rosaniline.github.com/</id>
   <author>
     <name><![CDATA[Rosaniline]]></name>
@@ -19,6 +19,15 @@
     <updated>2013-04-06T00:20:00+08:00</updated>
     <id>http://Rosaniline.github.com/blog/2013/04/06/first-post-haha</id>
     <content type="html"><![CDATA[<p>This gonna be cool</p>
+
+<p><em>強調</em></p>
+
+<p>Code block</p>
+
+<pre><code>for ( int i = 0; i &lt; 100; i ++ ) {
+    cout &lt;&lt; test;
+}
+</code></pre>
 ]]></content>
   </entry>
   
