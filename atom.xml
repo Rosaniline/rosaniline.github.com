@@ -4,7 +4,7 @@
   <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.com/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.com/"/>
-  <updated>2013-04-06T20:47:58+08:00</updated>
+  <updated>2013-04-06T20:50:01+08:00</updated>
   <id>http://Rosaniline.github.com/</id>
   <author>
     <name><![CDATA[Rosaniline]]></name>
@@ -28,6 +28,8 @@
     cout &lt;&lt; test;
 }
 </code></pre>
+
+<p>@evenchange4 !!</p>
 ]]></content>
   </entry>
   
