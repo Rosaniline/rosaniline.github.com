@@ -4,7 +4,7 @@
   <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.com/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.com/"/>
-  <updated>2013-04-06T23:16:24+08:00</updated>
+  <updated>2013-04-07T00:18:15+08:00</updated>
   <id>http://Rosaniline.github.com/</id>
   <author>
     <name><![CDATA[Rosaniline]]></name>
@@ -12,6 +12,95 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress@github pages]]></title>
+    <link href="http://Rosaniline.github.com/blog/2013/04/06/octopress-at-github-pages/"/>
+    <updated>2013-04-06T23:20:00+08:00</updated>
+    <id>http://Rosaniline.github.com/blog/2013/04/06/octopress-at-github-pages</id>
+    <content type="html"><![CDATA[<p>受到了 <a href="https://github.com/fawkeswei">fawkeswei</a> 的激勵，毅然決然加入了 <a href="http://octopress.org/">Octopress</a> + <a href="http://pages.github.com/">Github pages</a> 的行列。想不到這一折騰便是幾把小時，第一篇文章便是要來好好記錄一下。</p>
+
+<br/>   
+
+
+<h3>step 1. 建立 Github pages</h3>
+
+<p>首先得在你的 github 裡建立一名為 username.github.com 的 repository。得注意此處的 username 是真的 username，像小弟的便是 rosaniline.github.com，千萬別傻傻的輸入 &#8220;username&#8221;。</p>
+
+<h3>step 2. 建立 Octopress</h3>
+
+<pre><code>git clone git://github.com/imathis/octopress.git octopress
+cd octopress  
+ruby --version 
+</code></pre>
+
+<p>此時千萬要確定你的 ruby 至少要是 1.9.2+，Mac OS 隨機附贈的只有 ruby 1.8.7，可是會讓你在往後的路上吃盡悶虧的。</p>
+
+<pre><code>gem install bundler
+bundle install
+rake install
+</code></pre>
+
+<p>若是此時出現了</p>
+
+<pre><code>rake aborted!
+You have already activated rake 10.0.4, but your Gemfile requires rake 0.9.2.2. Using bundle exec may solve this.
+…
+</code></pre>
+
+<p>就改為 <code>bundle exec rake install</code> 即可！</p>
+
+<h3>step 3. Octopress @ Github Pages</h3>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>此時 octopress 會像您詢問 github pages 的 repository url，別吝嗇複製一番就好。</p>
+
+<pre><code>rake generate
+rake deploy
+</code></pre>
+
+<p>就大功告成囉！你的網誌會出現在 <code>username.github.com</code>
+但還是別忘記 push 一番。</p>
+
+<pre><code>git add .
+git commit -m 'message'
+git push origin source
+</code></pre>
+
+<h3>step 4. Octopress</h3>
+
+<p>在 <code>octopress/_config.yml</code> 可以修改 blog 的一些面貌，包括了</p>
+
+<p>一切準備妥當後便是要趕緊來搶 po 第一篇文章</p>
+
+<pre><code>rake new_post["title"]
+</code></pre>
+
+<p>octopress 是用 Markdown 語法寫成，可參考 <a href="http://markdown.tw/">Markdown 的語法說明</a> 或是 <a href="http://daringfireball.net/projects/markdown/syntax">Markdown: Syntax</a>。如果是用 Mac 的朋友們，就可以用好用的 <a href="http://mouapp.com/">Mou</a> editor！</p>
+
+<pre><code>rake generate 
+rake preview
+</code></pre>
+
+<p><code>rake preview</code> 可以先在本機上偷看你剛剛的辛苦成果，只需在瀏覽器中鍵入 <code>http://localhost:4000/</code> 即可看到。</p>
+
+<pre><code>git add .
+git commit -m 'message'
+git push source origin
+</code></pre>
+
+<p>最後別忘了要 push &amp; deploy.</p>
+
+<br/> <br/>   
+
+
+<hr />
+
+<p>以上內容參考自<a href="http://octopress.org/docs/deploying/github/">Deploying to Github Pages</a> 以及 <a href="http://zerodie.github.io/blog/2012/01/19/octopress-github-pages/">李嘉玲的技術筆記</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Post haha]]></title>
