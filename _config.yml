@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://Rosaniline.github.com
-title: rosaceous
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://Rosaniline.github.io
+title: 深海的大鳳梨
+subtitle: 
+author: Rosaniline
 simple_search: http://google.com/search
 description:
 
@@ -85,11 +85,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: rosaniline
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: yes
