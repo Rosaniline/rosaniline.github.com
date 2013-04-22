@@ -4,7 +4,7 @@
   <title><![CDATA[深海的大鳳梨]]></title>
   <link href="http://Rosaniline.github.io/atom.xml" rel="self"/>
   <link href="http://Rosaniline.github.io/"/>
-  <updated>2013-04-07T22:02:52+08:00</updated>
+  <updated>2013-04-22T22:18:13+08:00</updated>
   <id>http://Rosaniline.github.io/</id>
   <author>
     <name><![CDATA[Rosaniline]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[god_yehzu]]></title>
+    <link href="http://Rosaniline.github.io/blog/2013/04/22/god-yehzu/"/>
+    <updated>2013-04-22T22:17:00+08:00</updated>
+    <id>http://Rosaniline.github.io/blog/2013/04/22/god-yehzu</id>
+    <content type="html"><![CDATA[<p>子彙大神</p>
+
+<p>請跳醉月湖吧</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress@github pages]]></title>
