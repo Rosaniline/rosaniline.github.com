@@ -70,7 +70,7 @@ octopress 是用 Markdown 語法寫成，可參考 [Markdown 的語法說明](ht
 
 	git add .
 	git commit -m 'message'
-	git push source origin
+	git push origin source
 
 最後別忘了要 push & deploy.
   
